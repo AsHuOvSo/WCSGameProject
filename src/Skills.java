@@ -16,4 +16,8 @@ public class Skills {
         skillPoints-=amountOfPoints;
         return skillPoints;
     }
+
+    public Skills() {
+
+    }
 }

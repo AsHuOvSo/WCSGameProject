@@ -4,6 +4,7 @@ public class Player {
     int water = 2000;
     int coins = 0;
 
+
     public static int Damage(int healthAmount, int damageTaken) {
         healthAmount -= damageTaken;
         return healthAmount;
